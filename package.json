@@ -1,0 +1,26 @@
+{
+	"name": "nottodo",
+	"version": "1.0.0",
+	"description": "An app to help you build a happier, healthier lifestyle.",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BenCoyne/notToDoList.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BenCoyne/notToDoList/issues"
+	},
+	"homepage": "https://github.com/BenCoyne/notToDoList#readme",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"express": "^4.17.3",
+		"jest": "^27.5.1"
+	}
+}
