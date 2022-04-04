@@ -28,3 +28,7 @@ Users can name something they would not like to do anymore, and keep track of ho
 - Postgres
 - HTML
 - SCSS
+
+## Migrations
+
+CREATE TABLE ntds (ID SERIAL PRIMARY KEY, title VARCHAR(60), created_at TIMESTAMP);

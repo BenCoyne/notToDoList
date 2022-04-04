@@ -1,10 +1,18 @@
-import express from "express";
-import cors from "cors";
+const express = require("express");
+const cors = require("cors");
+const bodyParser = require("body-parser");
 const app = express();
 const PORT = 3001;
 
+app.use(bodyParser.json())
+app.use(
+  bodyParser.urlencoded({
+    extended: true,
+  })
+)
+
 app.get("/", (_req, res) => {
-	res.send("Hello World");
+	res.send({text: "Hello World"});
 });
 
 // Server

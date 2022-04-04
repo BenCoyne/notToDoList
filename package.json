@@ -3,7 +3,6 @@
 	"version": "1.0.0",
 	"description": "An app to help you build a happier, healthier lifestyle.",
 	"main": "index.js",
-	"type": "module",
 	"scripts": {
 		"test": "jest"
 	},
@@ -21,6 +20,7 @@
 	"dependencies": {
 		"cors": "^2.8.5",
 		"express": "^4.17.3",
-		"jest": "^27.5.1"
+		"jest": "^27.5.1",
+		"pg": "^8.7.3"
 	}
 }
